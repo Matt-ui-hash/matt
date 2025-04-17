@@ -1,0 +1,311 @@
+/***** Page de style pour la page Menu - la pâlette de goût ******/
+
+/***** général *****/
+body{
+    width:100%;
+    height:1560px;
+    background-color:#FFFFFF;
+    font-family:'roboto',sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:0px;
+}
+h2{
+    margin:0px;
+    width:300px;
+    font-size:18px;
+    font-weight:500;
+    font-family:'roboto',sans-serif;
+    color:black;
+}
+p{
+    font-family:'roboto', sans-serif;
+    font-size:16px;
+    font-weight:300;
+}
+p1{
+    font-weight:300;
+    color:black;
+    font-size:15px;
+    width:270px;
+}
+p2{
+    font-size:15px;
+    font-weight:700;
+    font-family:'roboto', sans-serif;
+    margin-right:15px;
+    margin-top:20px;
+}
+/***** NAV *****/
+nav{
+    width:100%;
+    height:96px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-bottom:30px;
+}
+.photo{
+    width:100%;
+    height:383px;
+    object-fit:cover;
+}
+.logosite{
+    width:200px;
+    height:34px;
+    margin-left:37%;
+    margin-top:30px;
+}
+.fa-arrow-left{
+    margin-left:15px;
+    margin-top:30px;
+    font-size:18px;
+}
+/***** MAIN *****/
+main{
+    width:80%;
+    height:80%;
+    border-radius:25px;
+    margin-top:-20px;
+    background-color:#EBEBEB;
+}
+.titre{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+main section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin-bottom: 20px;
+}
+main section article{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    margin-left:15px;
+}
+.fa-heart{
+    font-size:20px;
+}
+.titre h3{
+    font-family:'Shrikhand',sans-serif;
+    font-weight:400;
+    font-size:28px;
+}
+.conteneur{
+    width:634px;
+    height:72px;
+    background-color:white;
+    border-radius:15px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: end;
+    overflow:hidden;
+    cursor:pointer;
+}
+.conteneur2{
+    margin-bottom:50px;
+}
+span{
+    margin-bottom:6%;
+    margin-left:38%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:400;
+    color:white;
+    width:186px;
+    height:50px;
+    font-family:"roboto",sans-serif;
+    background:linear-gradient(to bottom,#FF79DA,#9356DC);
+    border-radius:25px;
+
+}
+span:hover{
+    opacity:0.6;
+}
+.conteneur-icon{
+    background-color:green;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:70px;
+    height:100%;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    margin-right:-70px;
+}
+.conteneur-icon div{
+    width:24px;
+    height:24px;
+    background-color:white;
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.entrée{
+    margin-right:55%;
+    width:36%;
+}
+/****** footer ******/
+footer li{
+    font-weight:500;
+    font-size:16px;
+    list-style: none;
+    color:white;
+}
+footer ul a{
+    text-decoration:none;
+}
+footer p3{
+    color:white;
+}
+footer ul{
+    display:flex;
+    flex-direction:row;
+    margin-left:380px;
+    margin-top:70px;
+}
+footer{
+    background-color:#353535;
+    width:100%;
+    height:10%;
+}
+.info{
+    font-weight:400;
+}
+.info-logo{
+    font-style:italic;
+    font-family:'Shrikhand' , sans-serif;
+    font-weight:400;
+    font-size:18px;
+    color:white;
+    margin-top:67px;
+}
+.fa-utensils{
+    color:white;
+    font-size:13px;
+    margin-right:10px;
+}
+.fa-handshake-angle{
+    color:white;
+    font-size:13px;
+    margin-right:10px;
+}
+.resto{
+    margin-right:10px;
+}
+.partenaire{
+    margin-right:40px;
+}
+.info{
+    margin-right:20px;
+}
+.info2{
+    margin-right:80px;
+}
+
+@media(max-width:1024px){
+
+/***** footer ******/
+
+footer{
+    display:flex;
+    justify-content:center;
+}
+.resto{
+    width:170px;
+    display:inline-block;
+}
+footer a{
+    display:flex;
+    flex-direction:row;
+}
+.partenaire{
+    width:140px;
+}
+.info{
+    width:130px;
+}
+.info2{
+    margin-right:50px;
+}
+footer ul{
+    margin-left:0%;
+    padding:0px;
+}
+/***** Main *******/
+
+.conteneur{
+    width:509px;
+    display:flex;
+    justify-content:start;
+}
+.conteneur h2{
+    width:270px;
+}
+.conteneur p1{
+    width:400px;
+}
+.conteneur-1{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.conteneur1{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.entrée{
+    margin-right:53%;
+}
+}
+@media(max-width: 767.98px){
+/****** NAV ******/
+.logosite{
+    margin-left:18%;
+}
+/****** MAIN ******/
+main{
+    width:100%;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
+.conteneur{
+    width:93%;
+}
+.entrée{
+    margin-right:50%;
+}
+span{
+    margin-left:27%;
+}
+/***** Footer ******/
+footer{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:start;
+}
+footer ul{
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-left:15px;
+    gap:3px;
+
+}
+.info-logo{
+    margin-left:15px;
+    margin-top:15px;
+}
+}
